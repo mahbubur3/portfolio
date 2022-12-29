@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import myImg from '../assets/images/my.png'
 
 export default function Home() {
   return (
@@ -17,6 +18,9 @@ export default function Home() {
       <main className={styles.main}>
 
         {/* header */}
+        <div className='mb-5'>
+          <Image src={myImg} alt="Picture of the author" width='200' />
+        </div>
         <div className='text-center'>
           <h1 className='font-bold text-5xl'>Hi, I am Mahbubur.</h1>
           <h3 className='font-bold text-3xl'>Full Stack Developer</h3>
