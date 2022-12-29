@@ -15,19 +15,28 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
+
+        {/* header */}
         <div className='text-center'>
           <h1 className='font-bold text-5xl'>Hello! This is Mahbubur.</h1>
           <h3 className='font-bold text-3xl'>Full Stack Developer</h3>
         </div>
+
+        {/* skills */}
         <div className='text-center'>
           <h3 className='font-bold text-3xl mt-10'>Skills</h3>
           <p className='text-2xl'>HTML, CSS, Bootstrap, Tailwind, SASS, JavaScript, React, Firebase, Python, Django, PostgreSQL</p>
         </div>
 
+        {/* works */}
+        <div className='text-center'>
+          <h3 className='font-bold text-3xl mt-10'>Works</h3>
+          <h3>under construction..............</h3>
+        </div>
       </main>
 
-      <footer>
-        Copyright by Mahbubur
+      <footer className={styles.footer}>
+        ©️ Copyright by Mahbubur
       </footer>
     </div >
   )
