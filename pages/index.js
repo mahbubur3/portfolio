@@ -18,7 +18,7 @@ export default function Home() {
 
         {/* header */}
         <div className='text-center'>
-          <h1 className='font-bold text-5xl'>Hi, I'm Mahbubur.</h1>
+          <h1 className='font-bold text-5xl'>Hi, I am Mahbubur.</h1>
           <h3 className='font-bold text-3xl'>Full Stack Developer</h3>
         </div>
 
