@@ -3,6 +3,10 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import myImg from '../assets/images/my.png'
 import { AnimatePresence, motion } from 'framer-motion'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee } from '@fortawesome/free-solid-svg-icons'
+import { faFacebook, faGithub, faLinkedin, faStackOverflow, faTwitter } from '@fortawesome/free-brands-svg-icons'
+// import '@fortawesome/fontawesome-svg-core/styles.css'
 
 export default function Home() {
   return (
@@ -16,11 +20,13 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap" rel="stylesheet" />
       </Head>
 
-      <motion.main className={styles.main}
+      <motion.main
+        className={styles.main}
         Layout
         animate={{ opacity: 1, transition: { duration: 2 } }}
         initial={{ opacity: 0 }}
-        exit={{ opacity: 0 }}>
+        exit={{ opacity: 0 }}
+      >
 
         {/* header */}
         <div className='mb-5'>
@@ -45,9 +51,32 @@ export default function Home() {
       </motion.main>
 
       {/* footer  */}
-      <footer className={styles.footer}>
-        ©️ Copyright by Mahbubur
-      </footer>
+      <motion.footer
+        className={styles.footer}
+        Layout
+        animate={{ opacity: 1, transition: { duration: 2 } }}
+        initial={{ opacity: 0 }}
+        exit={{ opacity: 0 }}
+      >
+        <div className='my-3'>
+          <a href="https://www.facebook.com/mahbubrahman01/">
+            <FontAwesomeIcon icon={faFacebook} size='2x' />
+          </a>
+          <a href="https://www.linkedin.com/in/mahbubrahman1/">
+            <FontAwesomeIcon icon={faLinkedin} size='2x' className='ml-5' />
+          </a>
+          <a href="https://github.com/mahbubrahman1">
+            <FontAwesomeIcon icon={faGithub} size='2x' className='ml-5' />
+          </a>
+          <a href="https://twitter.com/mahbub_rahman10">
+            <FontAwesomeIcon icon={faTwitter} size='2x' className='ml-5' />
+          </a>
+          <a href="https://stackoverflow.com/users/16684765/mahbubur-rahman">
+            <FontAwesomeIcon icon={faStackOverflow} size='2x' className='ml-5' />
+          </a>
+        </div>
+        Copyright ©️ Mahbubur Rahman
+      </motion.footer>
     </div >
   )
 }
