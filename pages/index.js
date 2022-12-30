@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import myImg from '../assets/images/my.png'
+import { AnimatePresence, motion } from 'framer-motion'
 
 export default function Home() {
   return (
@@ -15,14 +16,18 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap" rel="stylesheet" />
       </Head>
 
-      <main className={styles.main}>
+      <motion.main className={styles.main}
+        Layout
+        animate={{ opacity: 1, transition: { duration: 2 } }}
+        initial={{ opacity: 0 }}
+        exit={{ opacity: 0 }}>
 
         {/* header */}
         <div className='mb-5'>
           <Image src={myImg} alt="Picture of the author" width='200' />
         </div>
         <div className='text-center'>
-          <h1 className='font-bold text-5xl'>Hi, I am Mahbubur.</h1>
+          <h1 className='font-bold text-5xl'>Hi, I{"'"}m Mahbubur.</h1>
           <h3 className='font-bold text-3xl'>Full Stack Developer</h3>
         </div>
 
@@ -37,8 +42,9 @@ export default function Home() {
           <h3 className='font-bold text-3xl mt-10'>Works</h3>
           <h3>under construction..............</h3>
         </div>
-      </main>
+      </motion.main>
 
+      {/* footer  */}
       <footer className={styles.footer}>
         ©️ Copyright by Mahbubur
       </footer>
