@@ -47,7 +47,7 @@ export default function Home() {
         {/* works */}
         <div className='text-center'>
           <h3 className='font-bold text-3xl mt-10'>Works</h3>
-          <h3>under construction..............</h3>
+          <h3>under construction</h3>
         </div>
       </motion.main>
 
