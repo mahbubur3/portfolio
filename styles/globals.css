@@ -29,3 +29,10 @@ a {
     background: #f1f1f1;
   }
 }
+
+@supports (color: #525050) {
+  body {
+    color: #525050;
+    background-color: #f1f1f1;
+  }
+}
