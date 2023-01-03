@@ -2,9 +2,8 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import myImg from '../assets/images/my.png'
-import { AnimatePresence, motion } from 'framer-motion'
+import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 import { faFacebook, faGithub, faLinkedin, faStackOverflow, faTwitter } from '@fortawesome/free-brands-svg-icons'
 // import '@fortawesome/fontawesome-svg-core/styles.css'
 
@@ -18,7 +17,6 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
         <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700&display=swap" rel="stylesheet" />
-
       </Head>
 
       <motion.main
@@ -39,9 +37,9 @@ export default function Home() {
         </div>
 
         {/* skills */}
-        <div className='text-center'>
+        <div className='text-center lg:w-6/12 md:w-8/12 sm:w-8/12'>
           <h3 className='font-bold text-3xl mt-10'>Skills</h3>
-          <p className='text-2xl'>HTML, CSS, Bootstrap, Tailwind, SASS, JavaScript, React, Firebase, Python, Django, PostgreSQL</p>
+          <p className='text-2xl'>HTML, CSS, Bootstrap, Tailwind, SASS, JavaScript, React, Firebase, Python, Django, PostgreSQL, MySQL, Git & GitHub</p>
         </div>
 
         {/* works */}
@@ -49,13 +47,14 @@ export default function Home() {
           <h3 className='font-bold text-3xl mt-10'>Works</h3>
           <h3>under construction</h3>
         </div>
-      </motion.main>
+      </motion.main >
 
       {/* footer  */}
-      <motion.footer
+      < motion.footer
         className={styles.footer}
         Layout
-        animate={{ opacity: 1, transition: { duration: 2 } }}
+        animate={{ opacity: 1, transition: { duration: 2 } }
+        }
         initial={{ opacity: 0 }}
         exit={{ opacity: 0 }}
       >
@@ -77,7 +76,7 @@ export default function Home() {
           </a>
         </div>
         Copyright ©️ Mahbubur Rahman
-      </motion.footer>
+      </motion.footer >
     </div >
   )
 }
