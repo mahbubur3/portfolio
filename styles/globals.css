@@ -25,14 +25,14 @@ a {
   }
 
   body {
-    color: #525050;
+    color: #606060;
     background: #f1f1f1;
   }
 }
 
 @supports (color: #525050) {
   body {
-    color: #525050;
+    color: #606060;
     background-color: #f1f1f1;
   }
 }
