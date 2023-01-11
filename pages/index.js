@@ -37,9 +37,9 @@ export default function Home() {
         </div>
 
         {/* skills */}
-        <div className='text-center lg:w-6/12 md:w-8/12 sm:w-8/12'>
+        <div className='text-center lg:w-4/12 md:w-6/12 sm:w-8/12'>
           <h3 className='font-bold text-3xl mt-10'>Skills</h3>
-          <p className='text-2xl'>HTML, CSS, Bootstrap, Tailwind, SASS, JavaScript, React, Firebase, Python, Django, PostgreSQL, MySQL, Git & GitHub</p>
+          <p className='text-2xl'>JavaScript, React, Firebase, Python, Django, PostgreSQL, MySQL, Git & GitHub</p>
         </div>
 
         {/* works */}
