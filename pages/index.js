@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import myImg from '../assets/images/my.png'
+import profilePicture from '../assets/images/profile-picture.png'
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faGithub, faLinkedin, faStackOverflow, faTwitter } from '@fortawesome/free-brands-svg-icons'
@@ -29,7 +29,7 @@ export default function Home() {
 
         {/* header */}
         <div className='mb-5'>
-          <Image src={myImg} alt="Picture of the author" width='200' />
+          <Image src={profilePicture} alt="Picture of the author" width='200' />
         </div>
         <div className='text-center'>
           <h1 className='font-bold text-5xl'>Hi, I{"'"}m Mahbubur.</h1>
