@@ -34,18 +34,19 @@ export default function Home() {
         <div className='text-center'>
           <h1 className='font-bold text-5xl'>Hi, I{"'"}m Mahbubur.</h1>
           <h3 className='font-bold text-3xl'>Full Stack Developer</h3>
+          <a href=""><span className='text-xl underline'>Resume</span></a>
         </div>
 
         {/* skills */}
         <div className='text-center lg:w-4/12 md:w-6/12 sm:w-8/12'>
           <h3 className='font-bold text-3xl mt-10'>Skills</h3>
-          <p className='text-2xl'>JavaScript, React, Python, Django, Django REST Framework, PostgreSQL, MySQL, Firebase, Git & GitHub</p>
+          <p className='text-xl'>JavaScript, React, Python, Django, Django REST Framework, PostgreSQL, MySQL, Firebase, Git & GitHub</p>
         </div>
 
         {/* works */}
         <div className='text-center'>
           <h3 className='font-bold text-3xl mt-10'>Works</h3>
-          <h3>under construction</h3>
+          <p className='text-xl'>under construction</p>
         </div>
       </motion.main >
 
@@ -58,24 +59,27 @@ export default function Home() {
         initial={{ opacity: 0 }}
         exit={{ opacity: 0 }}
       >
-        <div className='my-3'>
-          <a href="https://www.facebook.com/mahbubrahman01/">
-            <FontAwesomeIcon icon={faFacebook} size='2x' />
+        <div className='text-xl my-3'>
+          <a href="https://www.linkedin.com/in/mahbubrahman1/" className='underline mx-1'>
+            Linkedin
           </a>
-          <a href="https://www.linkedin.com/in/mahbubrahman1/">
-            <FontAwesomeIcon icon={faLinkedin} size='2x' className='ml-5' />
+          <a href="https://github.com/mahbubrahman1" className='underline mx-1'>
+            GitHub
           </a>
-          <a href="https://github.com/mahbubrahman1">
-            <FontAwesomeIcon icon={faGithub} size='2x' className='ml-5' />
+          <a href="https://twitter.com/mahbub_rahman10" className='underline mx-1'>
+            Twitter
           </a>
-          <a href="https://twitter.com/mahbub_rahman10">
-            <FontAwesomeIcon icon={faTwitter} size='2x' className='ml-5' />
+          <a href="https://www.facebook.com/mahbubrahman01/" className='underline mx-1'>
+            Facebook
           </a>
-          <a href="https://stackoverflow.com/users/16684765/mahbubur-rahman">
-            <FontAwesomeIcon icon={faStackOverflow} size='2x' className='ml-5' />
+          <a href="https://www.instagram.com/mahbub_rahman10/" className='underline mx-1'>
+            Instragram
+          </a>
+          <a href="https://stackoverflow.com/users/16684765/mahbubur-rahman" className='underline'>
+            stackoverflow
           </a>
         </div>
-        Copyright ©️ Mahbubur Rahman
+        Copyright © 2023 Mahbubur Rahman. All rights reserved.
       </motion.footer >
     </div >
   )
