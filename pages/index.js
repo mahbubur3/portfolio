@@ -59,7 +59,7 @@ export default function Home() {
         initial={{ opacity: 0 }}
         exit={{ opacity: 0 }}
       >
-        <div className='text-xl my-3'>
+        <div className='my-3'>
           <a href="https://www.linkedin.com/in/mahbubrahman1/" className='underline mx-1'>
             Linkedin
           </a>
