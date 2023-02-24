@@ -54,7 +54,7 @@ export default function Home() {
         {/* skills */}
         <div className='text-center lg:w-4/12 md:w-6/12 sm:w-8/12'>
           <h3 className='font-bold text-3xl mt-10'>Skills</h3>
-          <p className='text-xl'>JavaScript, React, Python, Django, Django REST Framework, PostgreSQL, MySQL, Firebase, Git & GitHub</p>
+          <p className='text-xl'>Python, JavaScript, React, Django, Django REST Framework, PostgreSQL, MySQL, Firebase, Git & GitHub</p>
         </div>
 
         {/* works */}
