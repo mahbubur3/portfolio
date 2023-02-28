@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import profilePicture from '../assets/images/profile-picture.png'
+import profilePicture from '../assets/images/myself.png'
 import { motion } from 'framer-motion'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFacebook, faGithub, faLinkedin, faStackOverflow, faTwitter } from '@fortawesome/free-brands-svg-icons'
@@ -32,8 +32,8 @@ export default function Home() {
           <Image src={profilePicture} alt="Picture of the author" width='200' />
         </div>
         <div className='text-center'>
-          <h1 className='font-bold text-5xl'>Hi, I{"'"}m Mahbubur.</h1>
-          <h3 className='font-bold text-3xl'>Full Stack Developer</h3>
+          <h1 className='font-bold text-5xl'>Mahbubur Rahman</h1>
+          <h3 className='font-bold text-3xl'>Software Developer</h3>
           <a target="_blank" href="https://drive.google.com/file/d/1N1psxtS0fiOB0pkJC8EjJf-lvErhnrhA/view" rel="noopener noreferrer">
             <span className='text-xl underline mx-2'>Resume</span>
           </a>
@@ -42,9 +42,6 @@ export default function Home() {
           </a>
           <a target="_blank" href="https://github.com/mahbubrahman1/" rel="noopener noreferrer">
             <span className='text-xl underline mx-2'>GitHub</span>
-          </a>
-          <a target="_blank" href="https://twitter.com/mahbub_rahman10/" rel="noopener noreferrer">
-            <span className='text-xl underline mx-2'>Twitter</span>
           </a>
           <a target="_blank" href="https://www.facebook.com/mahbubrahman01/" rel="noopener noreferrer">
             <span className='text-xl underline mx-2'>Facebook</span>
