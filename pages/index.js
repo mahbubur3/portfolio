@@ -32,8 +32,8 @@ export default function Home() {
           <Image src={profilePicture} alt="Picture of the author" width='200' />
         </div>
         <div className='text-center'>
-          <h1 className='font-bold text-4xl sm:text-base lg:text-5xl'>Mahbubur Rahman</h1>
-          <h3 className='font-bold text-2xl sm:text-base lg:text-3xl'>Software Developer</h3>
+          <h1 className='font-bold text-5xl'>Hi, I'm Mahbubur.</h1>
+          <h3 className='font-bold text-3xl'>Software Developer</h3>
           <a target="_blank" href="https://drive.google.com/file/d/1-bgzOLPw79YbIEYEHRkO4Q9Xzsbca7mJ/view" rel="noopener noreferrer">
             <span className='text-xl underline mx-2'>Resume</span>
           </a>
@@ -50,13 +50,13 @@ export default function Home() {
 
         {/* skills */}
         <div className='text-center lg:w-4/12 md:w-6/12 sm:w-8/12'>
-          <h3 className='font-bold mt-10 text-2xl sm:text-base lg:text-3xl'>Skills</h3>
+          <h3 className='font-bold mt-10 text-3xl'>Skills</h3>
           <p className='text-xl'>Python, JavaScript, React, Django, Django REST Framework, PostgreSQL, MySQL, Firebase, Git & GitHub</p>
         </div>
 
         {/* works */}
         <div className='text-center'>
-          <h3 className='font-bold mt-10 text-2xl sm:text-base lg:text-3xl'>Works</h3>
+          <h3 className='font-bold mt-10 text-3xl'>Works</h3>
           <p className='text-xl'>under construction</p>
         </div>
       </motion.main >
