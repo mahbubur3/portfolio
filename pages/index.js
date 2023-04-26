@@ -28,9 +28,9 @@ export default function Home() {
       >
 
         {/* header */}
-        <div className='mb-5'>
+        {/* <div className='mb-5'>
           <Image src={profilePicture} alt="Picture of the author" width='200' />
-        </div>
+        </div> */}
         <div className='text-center'>
           <h1 className='font-bold text-4xl sm:text-base lg:text-5xl'>Mahbubur Rahman</h1>
           <h3 className='font-bold text-2xl sm:text-base lg:text-3xl'>Software Developer</h3>
