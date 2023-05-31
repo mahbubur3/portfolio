@@ -34,7 +34,7 @@ export default function Home() {
         <div className='text-center'>
           <h1 className='font-bold text-4xl sm:text-base lg:text-5xl'>Mahbubur Rahman</h1>
           <h3 className='font-bold text-2xl sm:text-base lg:text-3xl'>Software Developer</h3>
-          <a target="_blank" href="https://drive.google.com/file/d/1if2yvFSTJYq3aP_oZA56w4sZ-XqM_tIo/view" rel="noopener noreferrer">
+          <a target="_blank" href="https://drive.google.com/file/d/1v2KrA2ZqDP3Y8aFjdJL1h5i4a-Tp0LXC/view" rel="noopener noreferrer">
             <span className='text-xl underline mx-2'>Resume</span>
           </a>
           <a target="_blank" href="https://www.linkedin.com/in/mahbuburrahman1/" rel="noopener noreferrer">
@@ -43,7 +43,7 @@ export default function Home() {
           <a target="_blank" href="https://github.com/mahbubrahman1/" rel="noopener noreferrer">
             <span className='text-xl underline mx-2'>GitHub</span>
           </a>
-          <a target="_blank" href="https://www.facebook.com/mahbubur89/" rel="noopener noreferrer">
+          <a target="_blank" href="https://www.facebook.com/mahbubur15/" rel="noopener noreferrer">
             <span className='text-xl underline mx-2'>Facebook</span>
           </a>
         </div>
