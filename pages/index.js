@@ -37,10 +37,10 @@ export default function Home() {
           <a target="_blank" href="https://drive.google.com/file/d/1v2KrA2ZqDP3Y8aFjdJL1h5i4a-Tp0LXC/view" rel="noopener noreferrer">
             <span className='text-xl underline mx-2'>Resume</span>
           </a>
-          <a target="_blank" href="https://www.linkedin.com/in/mahbuburrahman1/" rel="noopener noreferrer">
+          <a target="_blank" href="https://www.linkedin.com/in/mahbubur8/" rel="noopener noreferrer">
             <span className='text-xl underline mx-2'>Linkedin</span>
           </a>
-          <a target="_blank" href="https://github.com/mahbubrahman1/" rel="noopener noreferrer">
+          <a target="_blank" href="https://github.com/mahbubur3/" rel="noopener noreferrer">
             <span className='text-xl underline mx-2'>GitHub</span>
           </a>
           <a target="_blank" href="https://www.facebook.com/mahbubur15/" rel="noopener noreferrer">
