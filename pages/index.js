@@ -57,7 +57,14 @@ export default function Home() {
         {/* works */}
         <div className='text-center'>
           <h3 className='font-bold mt-10 text-2xl sm:text-base lg:text-3xl'>Works</h3>
-          <p className='text-xl'>under construction</p>
+          <p className='text-xl'>Notes - Live | <a target="_blank" href="https://github.com/mahbubur3/notesapplication" rel="noopener noreferrer"><span className='text-xl underline mx-2'>Code</span></a></p>
+          <p>JavaScript, React, SQLite, Python & Django</p>
+          <p className='text-xl'>DevInfo - Live | <a target="_blank" href="https://github.com/mahbubur3/devinfo" rel="noopener noreferrer"><span className='text-xl underline mx-2'>Code</span></a></p>
+          <p>Python, Django, JavaScript & PostgreSQL</p>
+          <p className='text-xl'>Daily Task - Live | <a target="_blank" href="https://github.com/mahbubur3/Daily_Task" rel="noopener noreferrer"><span className='text-xl underline mx-2'>Code</span></a></p>
+          <p>Python, Django & SQLite</p>
+          <p className='text-xl'>Explore Around - Live | <a target="_blank" href="https://github.com/mahbubur3/Explore-Around" rel="noopener noreferrer"><span className='text-xl underline mx-2'>Code</span></a></p>
+          <p>Python, Django & SQLite</p>
         </div>
       </motion.main >
 
