@@ -33,8 +33,8 @@ export default function Home() {
         </div> */}
         <div className='text-center'>
           <h1 className='font-bold text-4xl sm:text-base lg:text-5xl'>Mahbubur Rahman</h1>
-          <h3 className='font-bold text-2xl sm:text-base lg:text-3xl'>Full Stack Developer</h3>
-          <a target="_blank" href="https://drive.google.com/file/d/1-rfTVgGJcToFIi_eDGBX_1AIA9L6Q9_j/view" rel="noopener noreferrer">
+          {/* <h3 className='font-bold text-2xl sm:text-base lg:text-3xl'>Full Stack Developer</h3> */}
+          <a target="_blank" href="#" rel="noopener noreferrer">
             <span className='text-xl underline mx-2'>Resume</span>
           </a>
           <a target="_blank" href="https://www.linkedin.com/in/mahbubur8/" rel="noopener noreferrer">
