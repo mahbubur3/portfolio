@@ -51,7 +51,7 @@ export default function Home() {
         {/* skills */}
         <div className='text-center lg:w-4/12 md:w-6/12 sm:w-8/12'>
           <h3 className='font-bold mt-10 text-2xl sm:text-base lg:text-3xl'>Skills</h3>
-          <p className='text-xl'>Python, JavaScript, React, Django, Django REST Framework, PostgreSQL, MySQL, Firebase, Git & GitHub</p>
+          <p className='text-xl'>C++, Python, JavaScript, React, Django, Django REST Framework, PostgreSQL, MySQL, Firebase, Git & GitHub</p>
         </div>
 
         {/* works */}
@@ -76,7 +76,7 @@ export default function Home() {
         }
         initial={{ opacity: 0 }}
         exit={{ opacity: 0 }}>
-        Copyright © 2023 Mahbubur Rahman. All rights reserved.
+        Copyright © 2024 Mahbubur Rahman. All rights reserved.
       </motion.footer >
     </div >
   )
